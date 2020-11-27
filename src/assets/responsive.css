@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+  .header > div {
+    width: 100%;
+  }
+  .header-button-bloc,
+  .header-flags-bloc,
+  .euro-currency {
+    display: none !important;
+  }
+}

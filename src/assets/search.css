@@ -1,0 +1,226 @@
+h2 {
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 15px;
+  color:white;
+}
+
+form {
+  padding: 10px 30px;
+}
+input {
+  text-rendering: optimizeLegibility;
+  outline: 0;
+  border-radius: 0.3125em;
+  border: 1px solid #dce3e6;
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: inherit;
+}
+DayPickerInput {
+  text-rendering: optimizeLegibility;
+  outline: 0;
+  border-radius: 0.3125em;
+  border: 1px solid #dce3e6;
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.input-style {
+  text-transform: capitalize;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  box-shadow: inset 0 1px 0 0 white;
+  opacity: 0.5;
+  padding: 11px 0 11px 35px;
+  width: 100%;
+  line-height: 21px;
+  box-sizing: border-box !important;
+  background-repeat: no-repeat;
+  background-position: 11px center;
+}
+
+.input-select {
+  background-color: #fff;
+  text-transform: capitalize;
+  border-color: #01c3a7;
+  border-bottom: 1px solid #01c3a7 !important;
+}
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 10px rgb(81, 238, 188);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.input-select::placeholder {
+  color: black !important;
+  font-weight: 600;
+}
+
+.input-filled {
+  color: black !important;
+  font-weight: 600;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+.unclickable {
+  pointer-events: none;
+}
+.input-style-top {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.input-style-bottom {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0;
+}
+
+.departure-logo {
+
+}
+
+.arrival-logo {
+
+}
+.departure-date-logo {
+
+}
+.arrival-date-logo {
+}
+
+.passenger-logo {
+  background-color: #ffffff;
+  background-image: url("https://assets.trainline.eu/assets/images/passenger-47004cd84d9b731383854ab84bf01f56.svg");
+}
+
+.divided {
+  height: 30px;
+}
+
+.people-bloc {
+  display: flex;
+  align-items: center;
+  color: black;
+  height: 45px;
+}
+.passenger-style {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.people-bloc > button {
+  border: 1px solid #dce3e6;
+  width: 44px;
+  height: 100%;
+  margin: auto;
+  border-left: none;
+  border-top-right-radius: 0.3125em;
+  border-bottom-right-radius: 0.3125em;
+  background: url("https://assets.trainline.eu/assets/images/plus-217e7af9c79de44dfb56833d0cc554f6.svg")
+    center no-repeat;
+  background-size: 18px 18px;
+}
+
+.bottom-form-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-form-left > p {
+  color: #059e87;
+  text-decoration: none;
+  margin-top: 13px;
+  font-size: 0.87em;
+}
+
+.bottom-form-left > button {
+  font-size: 0.9em;
+  line-height: 14px;
+  text-transform: uppercase;
+  border-radius: 0.3125em;
+  border: 1px solid #01c3a7;
+  padding: 12px 22px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #01c3a7;
+  background-image: none;
+  border-bottom: 1px solid #01907c;
+  box-shadow: 0 1px 1px -1px #8c9da1;
+  width: 180px;
+  font-weight: 600;
+  font-family: inherit;
+  pointer-events: none;
+}
+
+/* //////Swipe button */
+
+.search__swap {
+  position: absolute;
+  top: 27px;
+  right: -17px;
+  width: 34px;
+  height: 34px;
+}
+.swap-button {
+  z-index: 1;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid #dce3e6;
+  border-radius: 22px;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.01);
+  background-color: #fff !important;
+}
+
+.swap-button__label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  background: url("https://assets.trainline.eu/assets/images/swap-39f4eab40764c8e628e7a1c30545ef67.svg")
+    center no-repeat;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.real-input {
+  position: relative;
+}
+.DayPickerInput[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+.DayPickerInput[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 10px rgb(81, 238, 188);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}

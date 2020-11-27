@@ -1,0 +1,110 @@
+.forms-right {
+  position: relative;
+}
+
+.arrow-departure {
+  width: 14px;
+  min-height: 30px;
+  position: absolute;
+  top: 0;
+  margin-left: -14px;
+  margin-top: -5px;
+  overflow: hidden;
+  border-radius: 1px;
+}
+
+.arrow-arrival {
+  margin-top: 42px;
+}
+
+.arrow-departure:before {
+  background-color: #fff;
+  content: " ";
+  display: block;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+  margin: 5px 0 0 5px;
+}
+.result-bloc {
+  padding: 24px 40px;
+}
+
+.title-result {
+  text-rendering: optimizeLegibility;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  margin: 0 0 15px !important;
+  color: #323e42 !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  max-height: 300px;
+}
+.city-line {
+  cursor: pointer;
+  box-sizing: border-box;
+  border-bottom: none !important;
+  border: solid 0.5px #dce3e6;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.15;
+  text-transform: capitalize;
+  padding: 12px 11px 12px 35px;
+  background: url("https://assets.trainline.eu/assets/images/location-5632039ea0e607c803bc503fba864f35.svg")
+    11px center no-repeat;
+}
+
+.city-line:hover {
+  background-color: #fcfcfd;
+  color: #323e42;
+}
+
+.selected-top {
+  border-top-left-radius: 0.3125em;
+  border-top-right-radius: 0.3125em;
+  color: #323e42;
+  background-color: #fcfcfd;
+}
+
+.selected-bottom {
+  border-bottom-left-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
+  border-bottom: 0.5px solid #dce3e6 !important;
+}
+
+.selected-alone {
+  border: solid 0.5px #dce3e6 !important;
+  border-radius: 0.3125em;
+}
+
+.via-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.via-button > button {
+  margin-top: 18px;
+  padding: 8px 14px;
+  background-image: url("https://assets.trainline.eu/assets/images/add-via-ff2137e0ba72cb639915b58caca6f280.svg");
+  background-repeat: no-repeat;
+  background-position: 11px center;
+  background-size: 16px;
+  padding-left: 35px;
+  background-color: #d3f9f4;
+  color: #059e87;
+  border: 1px solid #01c3a7;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  border-radius: 0.3125em;
+}

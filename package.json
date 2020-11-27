@@ -1,0 +1,48 @@
+{
+  "name": "choo-choo",
+  "version": "0.1.0",
+
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.0",
+    "compass-mixins": "^0.12.10",
+    "react": "^16.11.0",
+    "react-day-picker": "^7.4.8",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "react-search": "^2.1.1",
+    "react-select": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "clean-force": "yarn cache clean --force"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "gh-pages": "^3.1.0"
+  },
+  "engines": {
+    "yarn": "1.22.5",
+    "node": "14.15.0"
+  }
+}
